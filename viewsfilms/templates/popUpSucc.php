@@ -1,3 +1,10 @@
+<!--
+    Auteur: Alexandre Cormier;
+    Matricule: 748947;
+    Code Permanent: CORA 2902 7602
+    Login: cormiea
+-->
+
 <div id="success1" class="popup-overlay">
         <div class="log-popup">
             <h2>Merci <?php echo $_SESSION['username'] ?></h2>

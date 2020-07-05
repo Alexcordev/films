@@ -1,3 +1,10 @@
+<!--
+    Auteur: Alexandre Cormier;
+    Matricule: 748947;
+    Code Permanent: CORA 2902 7602
+    Login: cormiea
+-->
+
 <link rel="stylesheet" href="../../css/style.css">
 <div class="sidebarRight">
 <div class="card bg-transparent mt-2" style="width: 12rem;">

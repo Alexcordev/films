@@ -1,3 +1,10 @@
+<!--
+    Auteur: Alexandre Cormier;
+    Matricule: 748947;
+    Code Permanent: CORA 2902 7602
+    Login: cormiea
+-->
+
 <?php
 
 session_start();
@@ -18,7 +25,7 @@ include_once '../controller/connectdb.php';
 <body>
 
 
-<div style="margin: 70px auto auto auto; width: 60%; height:80vh" class="container">
+<div style="margin: 100px auto auto auto; width: 60%; height:80vh" class="container">
 <div class="headerCart">
 <span><a class="btn1 btn btn-warning" href="../user/cart.php">Retour au panier</a></span>
 <h1>Résumé de vos achats</h1>
