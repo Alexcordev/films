@@ -1,17 +1,18 @@
 body {
     background: #111 !important;
-    margin : 0;
-    font-family: "Arimo",Arial,Helvetica,"Lucida Grande",sans-serif !important;
+    margin: 0;
+    font-family: "Arimo", Arial, Helvetica, "Lucida Grande", sans-serif !important;
     letter-spacing: -.03em;
     color: #fff;
     font-size: 16px;
 }
 
-.body{
-    padding:80px 0 20px 0;
-    margin : auto;
-    
+.body {
+    padding: 80px 0 20px 0;
+    margin: auto;
+
 }
+
 .inner-body {
     text-align: center;
     padding: 10px 20px;
@@ -24,32 +25,33 @@ body {
     letter-spacing: 1px;
     font-size: 50px;
 }
+
 .fa {
-    color:#d67900;
+    color: #d67900;
     font-size: 2em !important;
-        
+
 }
 
 .brand-name {
     font-size: 1.8rem !important;
-    color:#919191;
-    
+    color: #919191;
+
 }
 
 .navbar a {
     font-size: 1.3rem !important;
-    
+
 }
 
-header{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/background.jpg);
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/background.jpg);
     background-size: cover;
     height: 35vh;
     background-position: center;
     background-attachment: fixed;
 }
 
-.content{
+.content {
     font-size: 20px;
     color: white;
     margin: 10px auto;
@@ -60,25 +62,18 @@ header{
 .btn-main {
     padding: 10px 30px;
     border: 1px solid #d67900;
-    background: transparent;
-    color: #fff !important;
+    background-color: #d67900;
+    color: #fff;
     font-size: 22px;
     border-radius: 50px;
     margin-top: 20px;
     margin-left: 10px;
-    
-}
-
-.btn-main-primary {
-    background-color: #d67900;
-    color: #fff !important;
     text-align: center;
-    width: 20%;
 }
 
 .btn-main:hover {
-    background: #d67900;
-    color: #fff;
+    background: #aa6102;
+    color: #fff !important;
 }
 
 .searchBox {
@@ -91,21 +86,21 @@ header{
     outline: 0;
     display: inline;
     color: #fff;
-    background:transparent;
+    background: transparent;
 }
 
-.ratedMoviesHead{
+.ratedMoviesHead {
     padding: 5px;
     color: #fff;
     text-align: center;
     letter-spacing: 1px;
-    
+
 }
 
 .movieBox {
     background: #222;
     padding: 5px;
-    border-radius: 5px; 
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -118,20 +113,20 @@ header{
     margin: auto 5px 5px 5px;
 }
 
-.browse-movie-bottom{
+.browse-movie-bottom {
     margin: -20px auto 25px auto;
     max-width: 220px;
     text-align: center;
 }
 
-.browse-movie-title{
+.browse-movie-title {
     font-size: 1.25em;
     color: #fcac45;
     font-weight: 700;
-    
+
 }
 
-a{
+a {
     text-decoration: none !important;
     background-color: transparent;
 }
@@ -154,25 +149,25 @@ a{
     font-size: 14px;
     display: inline;
     color: #fff;
-    background: #d67900;;
+    background: #d67900;
+    ;
     border: 0;
     outline: 0;
     border-radius: 10px;
 }
 
-.box{
-    padding: 5px;  
+.box {
+    padding: 5px;
 }
-
 
 a:hover {
     text-decoration: none;
-    color: #d67900 !important;    
+    color: #d67900 !important;
 }
 
 .btn1:hover {
     text-decoration: none;
-    color: #fff !important;   
+    color: #fff !important;
 }
 
 .user-infos {
@@ -180,10 +175,29 @@ a:hover {
     font-weight: 700;
 }
 
-
 .modal-content {
     width: 900px;
     height: 600px;
+
+}
+
+.modal {
+    text-align: center;
+    padding: 0 !important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -20%;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
 }
 
 .sidebar {
@@ -197,9 +211,9 @@ a:hover {
     overflow-x: hidden;
     padding-top: 16px;
     border: 1px solid #818181;
-  }
-  
-  .sidebar input {
+}
+
+.sidebar input {
     padding: 6px auto;
     margin-left: 20px;
     text-align: left;
@@ -209,12 +223,13 @@ a:hover {
     color: #fff;
     display: block;
     border: 0;
-  }
-  
-  .sidebar input:hover {
+}
+
+.sidebar input:hover {
     color: #d67900 !important;
-  }
-  .sidebarRight {
+}
+
+.sidebarRight {
     height: 100vh;
     width: 225px;
     position: fixed;
@@ -230,21 +245,22 @@ a:hover {
     text-decoration: none;
     font-size: 16px;
     color: #fff;
-  }
-       
-  .main {
-    margin-left: 160px; 
-    padding: 0px 10px;
-  }
-  
- 
-  .navbar a {
-      font-size: 1.3em !important;
-  }
+}
 
-#movies img, #movie img{
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+
+.navbar a {
+    font-size: 1.3em !important;
+}
+
+#movies img,
+#movie img {
     width: 100%;
-} 
+}
 
 .container {
     margin-top: 20px;
@@ -252,8 +268,8 @@ a:hover {
 }
 
 .row {
-    padding : 20px 0;
-} 
+    padding: 20px 0;
+}
 
 
 .sbox {
@@ -267,19 +283,7 @@ a:hover {
 
 }
 
-.button {
-    margin-top: 5px;
-    padding: 5px 10px;
-    font-size: 14px;
-    display: inline;
-    color: #fff;
-    background: #d67900;;
-    border: 0;
-    outline: 0;
-    border-radius: 10px;
-}
-
-h1{
+h1 {
     color: white;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     text-align: center;
@@ -294,8 +298,8 @@ h1{
     text-align: center;
 }
 
-.req-box { 
-    margin-top:90px; 
+.req-box {
+    margin-top: 90px;
     padding: 30px;
 }
 
@@ -333,7 +337,7 @@ h1{
 
 .btn-danger {
     background: #dc3545;
-    margin-left:20px;
+    margin-left: 20px;
 
 }
 
@@ -360,15 +364,15 @@ h1{
 .log-box {
     width: 40%;
     margin: 0 auto 20px auto;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
     padding: 35px;
     border: 2px solid #fff;
     border-radius: 20px/50px;
     background-clip: padding-box;
     text-align: center;
-    }
-    
-    .open-button {
+}
+
+.open-button {
     font-size: 1em;
     padding: 10px;
     color: #fff;
@@ -377,13 +381,13 @@ h1{
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
-    }
-    
-    .button:hover {
+}
+
+.button:hover {
     background: #d67900;
-    }
-    
-    .popup-overlay {
+}
+
+.popup-overlay {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -393,15 +397,16 @@ h1{
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
-    
-    }
-    .popup-overlay:target {
+
+}
+
+.popup-overlay:target {
     visibility: visible;
     opacity: 1;
     z-index: 1100 !important;
-    }
-    
-    .log-popup {
+}
+
+.log-popup {
     margin: 100px auto;
     padding: 20px;
     background: #fff;
@@ -410,17 +415,17 @@ h1{
     position: relative;
     transition: all 1s ease-in-out;
     text-align: center;
-    
-    }
-    
-    .log-popup h2 {
+
+}
+
+.log-popup h2 {
     margin-top: 0;
     color: #333;
     font-family: Tahoma, Arial, sans-serif;
     text-transform: uppercase;
-    }
-    
-    .log-popup .close-window {
+}
+
+.log-popup .close-window {
     position: absolute;
     top: 20px;
     right: 30px;
@@ -429,43 +434,38 @@ h1{
     font-weight: bold;
     text-decoration: none;
     color: #333;
-    }
+}
 
-    .log-popup .close-window:hover {
+.log-popup .close-window:hover {
     color: #d67900 !important;
-    }
+}
 
-    .log-popup .log-content {
+.log-popup .log-content {
     max-height: 100%;
     overflow: auto;
-    }
+}
 
-    .modal-content {
-        width: 900px;
-        height: 600px;
-        
-    }
+.cartHeaderTitle {
+    text-align: center;
+    color: #333;
+}
 
-    .cartHeaderTitle {
-        text-align: center;
-        color: #333;
-    }
-    
-    .tableCart tr td{
-        vertical-align: middle;
-    }
+.tableCart tr td {
+    vertical-align: middle;
+}
 
-    .headerCart {
-        margin:10px auto 60px auto;
-        color: #d67900;
-    }
-    .cart-item {
-        color: #fff;
-        font-size: 14px;
-        font-weight: 700;
-    }
-        
-    .log-input{
+.headerCart {
+    margin: 10px auto 60px auto;
+    color: #d67900;
+}
+
+.cart-item {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.log-input {
     font-size: 20px;
     padding: 5px 10px;
     margin-top: 15px;
@@ -473,42 +473,43 @@ h1{
     border: 1px solid #d67900;
     outline: 0;
     border-radius: 50px;
-    } 
-    
-    .btn-log {
-        font-size: 18px;
-        background: #d67900;
-        padding: 10px;
-        border: 0;
-        outline: 0;
-        display: inline;
-        color: #fff;
-        width: 30%;
-        border-radius: 50px;
-        margin-top: 13px;
-        
-    }
+}
 
-    .icon {
-        padding: 15px 18px;
-        background: #d67900;
-        color: white;
-        text-align: center;
-        border-radius: 50%;
-    }
+.btn-log {
+    font-size: 18px;
+    background: #d67900;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    display: inline;
+    color: #fff;
+    width: 30%;
+    border-radius: 50px;
+    margin-top: 13px;
+
+}
+
+.icon {
+    padding: 15px 18px;
+    background: #d67900;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+}
 
 @media screen and (max-width: 960px) {
-    .hidden-sm{
+    .hidden-sm {
         display: none;
-        
+
     }
 }
 
-@media screen and (max-width: 700px){
-    .log-box{
+@media screen and (max-width: 700px) {
+    .log-box {
         width: 70%;
     }
-    .log-popup{
+
+    .log-popup {
         width: 70%;
     }
-    }
+}
